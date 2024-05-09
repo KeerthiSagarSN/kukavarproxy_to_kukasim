@@ -45,13 +45,13 @@ pip install py-openshowvar
 
 #### py_openshowvar for KUKA_SIM
 1. Open KUKA SIM
-2. Open one of the demo-layout, I have used KUKA Ready2Educate cell as we have that cell at our premise.
-3. You should model the simulation of the task, in simulation by yourself of the actual robot cell you have in KUKA SIM
-4. Similar to the picture below, assign a PythonScript to the robot in your simulation.
-5. Copy the code from kukasim_py_openshowvar.py from this repo to the PythonScript. 
-6. Once this is done, it is straightforward to see the simulation.
-Explanation of the code: Gets the $MY_AXIS position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM.
-Inverse is also possible, where you can send in real-time from KUKA SIM to the controller, which will be updated in the future version after testing.
+2. Open one of the demo-layout, I have used KUKA Ready2Educate cell as we have that cell at our premise. <br>
+3. You should model the simulation of the task, in simulation by yourself of the actual robot cell you have in KUKA SIM. <br>
+4. Similar to the picture below, assign a PythonScript to the robot in your simulation. <br>
+5. Copy the code from kukasim_py_openshowvar.py from this repo to the PythonScript. <br>
+6. Once this is done, it is straightforward to see the simulation. <br>
+Explanation of the code: Gets the $MY_AXIS position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM. <br>
+Inverse is also possible, where you can send in real-time from KUKA SIM to the controller, which will be updated in the future version after testing. <br>
 
 
 
