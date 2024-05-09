@@ -55,7 +55,7 @@ pip install py-openshowvar
 7. Press play in KUKA SIM, you must see the parked configuration of the robot. This is a sanity check if the script is working and connection is established. <br>
 8. Script works in all modes - T1, T2 and AUT. But recommend to test it first in T1 mode with reduced speed.
 9. Open any application in the controller and press play green button on the teach pendant.
-Explanation of the code: Gets the $MY_AXIS position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM.
+Explanation of the code: Gets the $AXIS_ACT position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM.
 Inverse is also possible, where you can send in real-time from KUKA SIM to the controller, which will be updated in the future version after testing. <br>
 
 Working demo based on the deployed script can be found in the link below:
