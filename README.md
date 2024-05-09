@@ -1,11 +1,11 @@
 # kukavarproxy_to_kukasim - Fork of py_openshowvar
-Python port of KUKAVarProxy client to KUKA SIM - Simple experimental library
-Main credits for this work goes to 
-a. lmtsSRL [https://github.com/ImtsSrl/KUKAVARPROXY](https://github.com/ImtsSrl/KUKAVARPROXY) for the communication library.
-b. linuxsand [https://github.com/linuxsand?tab=repositories](https://github.com/linuxsand?tab=repositories) for compiling the py_openshowvar.
-c. rebots [https://www.youtube.com/watch?v=ucBxMxYJqIg&ab_channel=rebots](https://www.youtube.com/watch?v=ucBxMxYJqIg&ab_channel=rebots) for great explanation on the integration tutorial.
+Python port of KUKAVarProxy client to KUKA SIM - Simple experimental library <br>
+Main credits for this work goes to: <br>
+a. lmtsSRL [https://github.com/ImtsSrl/KUKAVARPROXY](https://github.com/ImtsSrl/KUKAVARPROXY) for the communication library. <br>
+b. linuxsand [https://github.com/linuxsand?tab=repositories](https://github.com/linuxsand?tab=repositories) for compiling the py_openshowvar. <br>
+c. rebots [https://www.youtube.com/watch?v=ucBxMxYJqIg&ab_channel=rebots](https://www.youtube.com/watch?v=ucBxMxYJqIg&ab_channel=rebots) for great explanation on the integration tutorial. <br>
 # Python Version
-Python 2.7 (as KUKA SIM still only support Python 2.7), but can be easily modified for Python3.x
+Python 2.7 (as KUKA SIM still only support Python 2.7), but can be easily modified for Python3.x. <br>
 
 # Installation Steps for KUKA KRC4 to KUKA SIM
 This is an unofficial step to simulate/ have a digital representation of the robot in KUKA SIM.<br>
