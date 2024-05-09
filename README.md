@@ -1,5 +1,6 @@
 # kukavarproxy_to_kukasim - Fork of py_openshowvar
-Python port of KUKA VarProxy client to KUKA SIM 
+Python port of KUKAVarProxy client to KUKA SIM 
+Main credits for this work goes to linuxsand [https://github.com/linuxsand?tab=repositories](https://github.com/linuxsand?tab=repositories) for compiling the py_openshowvar.
 # Python Version
 Python 2.7 (as KUKA SIM still only support Python 2.7), but can be easily modified for Python3.x
 
