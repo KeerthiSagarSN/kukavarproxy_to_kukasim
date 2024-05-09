@@ -52,9 +52,15 @@ pip install py-openshowvar
  ![alt text](./pythonscript_kuka.png)
 5. Copy the code from __kukasim_py_openshowvar.py__ from this repo to the attached PythonScript. <br>
 6. Once this is done, it is straightforward to see the simulation. <br>
-Explanation of the code: Gets the $MY_AXIS position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM. <br>
+7. Script works in all modes - T1, T2 and AUT. But recommend to test it first in T1 mode with reduced speed.
+8. Press play in KUKA SIM to see the real-time simulation.
+Explanation of the code: Gets the $MY_AXIS position from the robot controller and publishes it to the robot joints for DriveJoints in the KUKA SIM.
 Inverse is also possible, where you can send in real-time from KUKA SIM to the controller, which will be updated in the future version after testing. <br>
 
+Working demo based on the deployed script can be found in the link below:
+[https://www.youtube.com/watch?v=ki-idtjE6Yo&ab_channel=KeerthiSagar](https://www.youtube.com/watch?v=ki-idtjE6Yo&ab_channel=KeerthiSagar)
+
+__Beware__!! Current implementation only visualizes joint states, KUKA SIM's software in-built has support for joint and also action visualization.
 
 
 
