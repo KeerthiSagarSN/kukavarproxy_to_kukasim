@@ -4,8 +4,8 @@ Python port of KUKA VarProxy client to KUKA SIM
 Python 2.7 (as KUKA SIM still only support Python 2.7), but can be easily modified for Python3.x
 
 # Installation Steps for KUKA KRC4 to KUKA SIM
-This is an unofficial step to simulate/ have a digital representation of the robot in KUKA SIM
-With newer version of KUKA SIM 4.3x, this repo may be irrelevant!! as you can visualize the robot directly using the option shown below by being connected to the controller.
+This is an unofficial step to simulate/ have a digital representation of the robot in KUKA SIM.\\
+With newer version of KUKA SIM 4.3x, this repo may be irrelevant!! as you can visualize the robot directly using the option shown below by being connected to the controller.\\
 
 This option directly uses KRC4 controller's KSI option, so no hassle of changing network configuration which will be performed in this repo. I recommend using this option. 
 ##CAUTION: Refer to KUKA Documentation and training for this, as sending program files directly from KUKA SIM to controller and simulating it, may erase your entire robot controller, as the config.dat is modified during this process!!!
