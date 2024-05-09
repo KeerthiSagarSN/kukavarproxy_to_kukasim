@@ -10,10 +10,7 @@ Python 2.7 (as KUKA SIM still only support Python 2.7), but can be easily modifi
 # Installation Steps for KUKA KRC4 to KUKA SIM
 This is an unofficial step to simulate/ have a digital representation of the robot in KUKA SIM.<br>
 With newer version of KUKA SIM 4.3x, this repo may be irrelevant!! as you can visualize the robot directly using the option shown below by being connected to the controller.<br>
-[KUKA SIM to Controller: Directly using KSI](kuka_sim_to_controller.png)
-
-
-
+ ![alt text](./main/kuka_sim_to_controller.png)
 
 This option directly uses KRC4 controller's KSI option, so no hassle of changing network configuration which will be performed in this repo. I recommend using this option. <br>
 ##CAUTION: Refer to KUKA Documentation and training for this, as sending program files directly from KUKA SIM to controller and simulating it, may erase your entire robot controller, as the config.dat is modified during this process!!!<br>
